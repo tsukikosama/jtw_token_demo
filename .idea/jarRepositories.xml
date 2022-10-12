@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="0df53118-e5d7-4eee-9eb3-5aa4c458de8c" />
+      <option name="name" value="0df53118-e5d7-4eee-9eb3-5aa4c458de8c" />
+      <option name="url" value="http://mybatis.org/dtd/mybatis-3-config.dtd" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="c116da77-f570-4f1e-afc4-ad16c62c86d5" />
+      <option name="name" value="c116da77-f570-4f1e-afc4-ad16c62c86d5" />
+      <option name="url" value="http://mybatis.org/dtd/mybatis-3-mapper.dtd" />
+    </remote-repository>
+  </component>
+</project>

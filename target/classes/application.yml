@@ -1,0 +1,28 @@
+server:
+  port: 8080
+spring:
+  #设置静态资源访问位置
+  #mvc:
+  #static-path-pattern: /backend/**
+  #resources:
+  #映射机台资源访问位置
+  #static-locations:
+  #- classpath:/backend/
+  application:
+    name: jwt_token
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/jwt_token?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: 2270398619
+mybatis-plus:
+  configuration:
+    #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
+    map-underscore-to-camel-case: true
+    #打印mybatis中执行的sql语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      #全局默认主键类型
+      id-type: ASSIGN_ID
